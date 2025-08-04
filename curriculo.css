@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: #f5faf3;
 }
 
 h1{
@@ -10,17 +11,59 @@ h1{
     text-align: center;
 }
 
+h2{
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1.2rem;
+    text-align: center;
+}
+h3{
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1.1rem;
+}
+h4{
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
+}
 p{
     font-family: sans-serif;
     color: rgba(0, 0, 0, 0.7);
     font-size: 1 rem;
     line-height: 1.5;
 }
-
+li {
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1 rem;
+    line-height: 1.5;
+}
 .principal{
-    background-color: #f5faf3;
-    padding: 40px;
-    margin: 40px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
     border: 1px solid #dcdcdc;
     border-radius: 15px;
+}
+.verde {
+    border-color: green;
+    background-color: green;
+    height: 2px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2px;
+    padding: 2px;
+}
+a {
+    text-decoration: none;
+}
+.grid a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1 rem;
+    line-height: 1.5;
 }
