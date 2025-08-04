@@ -51,6 +51,10 @@ li {
     background-color: green;
     height: 2px;
 }
+.verde-light{
+    border-color: green;
+    background-color: green;
+}
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
