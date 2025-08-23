@@ -1,0 +1,22 @@
+:root {
+    --title: 4rem;
+    --bg: #333;
+    --color-circule: red;
+    --color-box: blue;
+
+    --space-cadet: #2b2d42ff;
+    --cool-gray: #8d99aeff;
+    --antiflash-white: #edf2f4ff;
+    --red-pantone: #ef233cff;
+    --fire-engine-red: #d90429ff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg);
+}

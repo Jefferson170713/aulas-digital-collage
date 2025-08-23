@@ -4,7 +4,7 @@
 
 Este arquivo demonstra uma **estrutura HTML5 semântica completa** com boas práticas de desenvolvimento web.
 
-### 📋 Estrutura Principal
+### Estrutura Principal
 
 #### `<head>` - Configurações e Metadados
 - **DOCTYPE HTML5**: `<!DOCTYPE html>`
@@ -13,7 +13,7 @@ Este arquivo demonstra uma **estrutura HTML5 semântica completa** com boas prá
 - **Viewport**: Configuração responsiva para dispositivos móveis
 - **Compatibilidade**: IE=edge para melhor compatibilidade com Internet Explorer
 
-#### 🔍 Meta Tags SEO
+#### Meta Tags SEO
 - **Description**: Campo para descrição da página (até 160 caracteres)
 - **Keywords**: Palavras-chave para otimização de busca
 - **Author**: Identificação do autor (LuanPDD)
