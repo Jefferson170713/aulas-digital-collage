@@ -1,0 +1,20 @@
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#cabecalho {
+    background-color: #e3ecf6;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+
+    /* minhas alterações */
+    border-left: #0345d5 solid 4px;
+    border-radius: 8px;
+}
+
+#conteudo-principal {
+    min-height: 500px;
+    padding: 40px 0;
+}
