@@ -1,0 +1,67 @@
+/* h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    text-align: center;
+} */
+
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.tag-a{
+    text-decoration: none;
+    color: #3498db;
+    font-size: 1.2rem;
+    border: 2px solid #3498db;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.tag-a:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+/* add os atributos da questão */
+
+/* Usando nomes de cores */
+h1 {
+    color: red;
+}
+
+/* Usando código hexadecimal */
+p {
+    color: #333333;
+}
+
+/* Usando RGB */
+.destaque {
+    color: rgb(255, 0, 0);
+}
+
+/* Usando RGBA (com transparência) */
+.texto-suave {
+    padding: 8px;
+    margin: 0 20px;
+    font-family: Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.2em;
+}
+
+/* Usando HSL */
+.titulo-especial {
+    color: hsl(210, 50%, 30%);
+    font-size: 5em;
+    text-align: center;
+}
