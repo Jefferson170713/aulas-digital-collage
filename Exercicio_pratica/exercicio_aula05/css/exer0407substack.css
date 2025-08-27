@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 3rem;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+/* variável de cor */
+:root {
+    --cor-caixa: #abd4fe;
+    --cor-borda: #dee2e6;
+    --cor-borda-preta: #212529;
+}
+
+/* Cor sólida */
+.caixa {
+    background-color: var(--cor-caixa);
+    width: 300px;
+    height: 200px;
+    border: 2px solid var(--cor-borda-preta);
+}
+
+/* Imagem de fundo */
+.hero {
+    background-image: url('../../..//Arquivos/icon/google-ar21.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 600px;
+    height: 300px;
+    border: 2px solid var(--cor-borda-preta);
+}
+
+/* Gradiente */
+.gradiente {
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+
+    width: 300px;
+    height: 200px;
+    border: 2px solid var(--cor-borda-preta);
+}
+
+/* Propriedade shorthand */
+.fundo-completo {
+    background: #fff url('pattern.png') repeat-x top left;
+}
