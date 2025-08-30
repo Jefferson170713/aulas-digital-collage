@@ -21,10 +21,14 @@ h3 {
     margin-bottom: 1rem;
     color: rgba(0, 0, 0, 0.65);
 }
-
+.content-img-grande {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+}
 .content-img-pequena {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     object-fit: cover;
 }
 .content {
@@ -71,18 +75,16 @@ ol li {
     gap: 0.5rem;
 }
 
+/* conteudo utensilos */
 .content-list-center {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.2);
 }
 
-/* conteudo utensilos */
-/* .content-list-utensilios {
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-} */
+
+
 .content-list-utensilios {
     display: flex;
     justify-content: center;
@@ -94,12 +96,6 @@ ol li {
     padding-bottom: 2.5rem;;
 }
 
-/* .content-list-utensilios {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    list-style: none;
-} */
 .content-list-utensilios ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -117,6 +113,7 @@ ol li {
     text-decoration: none;
 }
 
+/* botão para comprar */
 .comprar {
     background-color: #e31414;
     color: white;
