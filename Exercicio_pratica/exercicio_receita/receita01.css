@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #fffdfd;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.65);
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.65);
+}
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.65);
+}
+.content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.content-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.content-text {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.60);
+}
+
+ol li {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.60);
+}
+/* conteudo lista */
+.content-list {
+    display: flex;
+    justify-content: center;
+}
+
+.content-list ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    list-style: none;
+}
+
+.content-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.content-list-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* conteudo utensilos */
+.content-list-utensilios {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.content-list-utensilios {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 2.5rem;
+    border-radius: 15px;
+    /* height: 600px; */
+    width: 900px;
+    padding: 2.5rem;
+    padding-bottom: 2.5rem;;
+}
+
+.content-list-utensilios ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    list-style: none;
+}
+
+.content-list-utensilios li {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.content-list-utensilios a {
+    text-decoration: none;
+}
+
+.comprar {
+    background-color: #e31414;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.comprar:hover {
+    color: white;
+    background-color: #28a745;
+    /* border: 1px solid #28a745; */
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.content-modo-preparo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+}
+ol li {
+    padding: 1rem;
+}
+
