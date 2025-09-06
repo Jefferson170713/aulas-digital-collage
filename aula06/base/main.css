@@ -1,0 +1,21 @@
+@import url('./variables.css');
+@import url('./reset.css');
+@import url('./typography.css');
+@import url('./layout.css');
+@import url('./header.css');
+@import url('./navigation.css');
+@import url('./submenu.css');
+@import url('./buttons.css');
+@import url('./mobile.css');
+@import url('./animations.css');
+@import url('./utilities.css');
+
+/* tweakcn site de cores */
+
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: blueviolet;
+} */
