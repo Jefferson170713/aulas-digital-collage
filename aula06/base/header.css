@@ -54,3 +54,24 @@
 .header-nav-list-item-submenu-item-link {
     color: var(--color-gray-700)
 }
+.header-search {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+.header-input {
+    padding: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: var(--color-gray-100);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.header-search-button {
+    padding: 0.5rem 1rem;
+    background-color: var(--color-gray-900);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
