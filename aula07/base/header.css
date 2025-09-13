@@ -1,0 +1,61 @@
+/* parte da borda e sombra */
+.header-containers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.header-logo {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.header-logo a {
+    font-size: 1.5rem;
+    line-height: 1;
+    color: var(--color-gray-800);
+}
+
+.header-logo:hover {
+    background-color: var(--color-gray-100);
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+    /* color: var(--color-primary-600); */
+}
+.header-logo a :hover {
+    color: var(--color-primary-dark);
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-nav-list {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.header-nav-list-link {
+    color: var(--color-gray-700);
+    padding: 10px;
+}
+.header-nav-list-link:hover {
+    color: var(--color-primary-dark);
+    transition: color 0.3s ease;
+    background-color: var(--color-gray-100);
+    border-radius: 15px;
+}
+
+.header-nav-list-item-submenu {
+    display: none;
+}
+
+.header-nav-list-item-submenu-item-link {
+    color: var(--color-gray-700)
+}
